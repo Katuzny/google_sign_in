@@ -1,4 +1,8 @@
 <?php
+
+$basePath = dirname(__dir__) . DIRECTORY_SEPARATOR;
+require_once $basePath . 'vendor/autoload.php';
+
 $url = "http://localhost:8080";
 session_start();
 
